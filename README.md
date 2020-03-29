@@ -52,7 +52,7 @@ end
 ### [code](code)
 [LocalMethods.jl](code/LocalMethods.jl): Create local methods 
 
-[UKrig2.jl](code/UKrig2.jl): create 
+[UKrig2.jl](code/UKrig2.jl): tiny package to some Gnu and Mnu functions.
 
 ### [/notebooks](notebooks)
 [Assignment1.ipynb](notebooks/Assignment1.ipynb):  Use matern covariance to analyze the data and report 
