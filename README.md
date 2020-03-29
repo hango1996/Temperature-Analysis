@@ -43,3 +43,18 @@ end
 2) To fit the Kriging model you have the elevation at each observation point in the file ``. To make the Kriging prediction you will need the elevation corresponding to each (lat,lon) grid point. The gridded elevations can be found in `data/krig_at.jld2`. Take a look at `notebooks/notebook3.jl` to find some code for loading and plotting.
 
 3) We summaries the report in `notebook/Assignment2.ipynb`
+
+
+# Repository Description 
+### [/data](data)
+[USTmax.csv](data/UStmax.csv): Mean summer daily maximum temperature for June-August, 1990 at 4408 obervation locations in the United States(National Center for Atmospheric Research). it has four columns corresponding to latitude, longitude, elevation and mean daily maximum temperature
+
+### [code](code)
+[LocalMethods.jl](code/LocalMethods.jl): Create local methods 
+
+[UKrig2.jl](code/UKrig2.jl): create 
+
+### [/notebooks](notebooks)
+[Assignment1.ipynb](notebooks/Assignment1.ipynb):  Use matern covariance to analyze the data and report 
+
+[Assignment2.ipynb](notebooks/Assignment2.ipynb):  Use KrigY model and generalized covariance function to analyze the data and report 
